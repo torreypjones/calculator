@@ -50,4 +50,4 @@ jobs:
       #assume everything before now was successful
       - name: force success
         run: |
-          echo something #zero return code incidates success
+          return 1 #zero return code incidates success
