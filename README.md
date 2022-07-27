@@ -1,5 +1,6 @@
 [![Actions Status](https://github.com/torreypjones/calculator/workflows/github%20actions%20demo%20success/badge.svg)]
 [![github actions demo success](https://github.com/torreypjones/calculator/actions/workflows/github-actions-demo-success.yml/badge.svg)](https://github.com/torreypjones/calculator/actions/workflows/github-actions-demo-success.yml)
+[![github actions demo success](https://github.com/torreypjones/calculator/actions/workflows/github-actions-demo-success.yml/badge.svg?event=workflow_run)](https://github.com/torreypjones/calculator/actions/workflows/github-actions-demo-success.yml)
 
 Calculator
 ---
