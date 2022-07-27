@@ -5,6 +5,8 @@
 
 [![github actions demo success](https://github.com/torreypjones/calculator/actions/workflows/github-actions-demo-success.yml/badge.svg?event=status)](https://github.com/torreypjones/calculator/actions/workflows/github-actions-demo-success.yml)
 
+[![github actions demo success](https://github.com/torreypjones/calculator/actions/workflows/github-actions-demo-success.yml/badge.svg)](https://github.com/torreypjones/calculator/actions/workflows/github-actions-demo-success.yml)
+
 Calculator
 ---
 <img src="Logotype primary.png" width="60%" height="60%" />
