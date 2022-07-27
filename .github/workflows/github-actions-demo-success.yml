@@ -47,7 +47,7 @@ jobs:
       - name: Generate Badges
         uses: jaywcjlove/generated-badges@main
         with:
-          label: github.event.inputs.branch
+          label: ${{ github.event.inputs.branch }}
           status: cyan
           output: build/cyan.svg
 
