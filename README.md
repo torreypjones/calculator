@@ -1,3 +1,5 @@
+[![Actions Status](https://github.com/torreypjones/calculator/workflows/github%20actions%20demo%20success/badge.svg)]
+
 Calculator
 ---
 <img src="Logotype primary.png" width="60%" height="60%" />
