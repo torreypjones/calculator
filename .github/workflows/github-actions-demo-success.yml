@@ -48,6 +48,6 @@ jobs:
           ls ${{ github.workspace }}
 
       #assume everything before now was successful
-      - name: force failure
+      - name: force success
         run: |
-          return 0 #zero return code incidates success
+          echo something #zero return code incidates success
