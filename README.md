@@ -1,3 +1,6 @@
+![example event parameter](https://github.com/github/docs/actions/workflows/main.yml/badge.svg?event=push)
+
+
 [![github actions demo success label](https://github.com/torreypjones/calculator/actions/workflows/github-actions-demo-success.yml/badge.svg)](https://github.com/torreypjones/calculator/actions/workflows/github-actions-demo-success.yml)
 
 [![github actions demo success label2](https://github.com/torreypjones/calculator/actions/workflows/github-actions-demo-success.yml/badge.svg)](https://github.com/torreypjones/calculator/actions/workflows/github-actions-demo-success.yml)
