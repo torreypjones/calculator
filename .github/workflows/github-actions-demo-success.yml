@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: name of github actions demo success
+name: github actions demo success with badges
 
 # Controls when the workflow will run
 on:
@@ -61,7 +61,7 @@ jobs:
           gistID: 222c4b03cc18f8ea0a0d20aba1a02621
           filename: badges-demo-orange.json
           label: ${{ github.workflow }} 
-          message: ${{ github.action_status }}
+          message: ${{ github.action }}
           color: orange
 
       #generate a badge for this run
