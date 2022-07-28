@@ -12,23 +12,6 @@
 
 [![github actions demo success label2](https://github.com/torreypjones/calculator/actions/workflows/github-actions-demo-success.yml/badge.svg)](https://github.com/torreypjones/calculator/actions/workflows/github-actions-demo-success.yml)
 
-[![github actions demo success](https://github.com/torreypjones/calculator/actions/workflows/github-actions-demo-success.yml/badge.svg?event=workflow_run)](https://github.com/torreypjones/calculator/actions/workflows/github-actions-demo-success.yml)
-
-[![github actions demo success](https://github.com/torreypjones/calculator/actions/workflows/github-actions-demo-success.yml/badge.svg?event=watch)](https://github.com/torreypjones/calculator/actions/workflows/github-actions-demo-success.yml)
-
-[![github actions demo success](https://github.com/torreypjones/calculator/actions/workflows/github-actions-demo-success.yml/badge.svg?event=status)](https://github.com/torreypjones/calculator/actions/workflows/github-actions-demo-success.yml)
-
-[![github actions demo success](https://github.com/torreypjones/calculator/actions/workflows/github-actions-demo-success.yml/badge.svg?event=release)](https://github.com/torreypjones/calculator/actions/workflows/github-actions-demo-success.yml)
-
-[![github actions demo success](https://github.com/torreypjones/calculator/actions/workflows/github-actions-demo-success.yml/badge.svg?event=default)](https://github.com/torreypjones/calculator/actions/workflows/github-actions-demo-success.yml)
-
-[![github actions demo success](https://github.com/torreypjones/calculator/actions/workflows/github-actions-demo-success.yml/badge.svg?event=check_run)](https://github.com/torreypjones/calculator/actions/workflows/github-actions-demo-success.yml)
-
-[![github actions demo success](https://github.com/torreypjones/calculator/actions/workflows/github-actions-demo-success.yml/badge.svg?event=deployment_status)](https://github.com/torreypjones/calculator/actions/workflows/github-actions-demo-success.yml)
-
-[![github actions demo success](https://github.com/torreypjones/calculator/actions/workflows/github-actions-demo-success.yml/badge.svg?event=deployment)](https://github.com/torreypjones/calculator/actions/workflows/github-actions-demo-success.yml)
-
-[![github actions demo success](https://github.com/torreypjones/calculator/actions/workflows/github-actions-demo-success.yml/badge.svg?event=workflow_run)](https://github.com/torreypjones/calculator/actions/workflows/github-actions-demo-success.yml)
 
 Calculator
 ---
