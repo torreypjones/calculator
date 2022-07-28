@@ -72,7 +72,7 @@ jobs:
           #label: ${{ format('{0} / environment {1} / branch {2}', github.workflow, github.event.inupts.environment ) }}
           label: ${{ format('workflow{0} {1} / environment{0} {2}', ':', github.workflow, github.event.inputs.environment ) }}
           message: ${{ github.event.inputs.environment }}
-          color: ${{ github.event.inputs.badge-color }}
+          color: ${{ github.event.inputs.badge_color }}
 
       #generate a badge for this run
       - name: Create Badge red
