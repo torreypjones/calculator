@@ -61,7 +61,7 @@ jobs:
           gistID: 222c4b03cc18f8ea0a0d20aba1a02621
           filename: badges-demo-orange.json
           #label: ${{ format('{0} / environment {1} / branch {2}', github.workflow, github.event.inupts.environment ) }}
-          label: ${{ format('workflow {0}', github.workflow) }}
+          label: ${{ format('workflow{0} {1} / branch{0} {2}', ':', github.workflow, github.event.inputs.environment ) }}
           message: ${{ github.event.inputs.environment }}
           color: orange
 
