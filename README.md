@@ -5,9 +5,6 @@
 
 ![badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/torreypjones/222c4b03cc18f8ea0a0d20aba1a02621/raw/workflow_workflow_name_environment_staging-torrey.json)
 
-
-![example event parameter](https://github.com/github/docs/actions/workflows/main.yml/badge.svg?event=push)
-
 [![github actions demo success label](https://github.com/torreypjones/calculator/actions/workflows/github-actions-demo-success.yml/badge.svg)](https://github.com/torreypjones/calculator/actions/workflows/github-actions-demo-success.yml)
 
 [![github actions demo success label2](https://github.com/torreypjones/calculator/actions/workflows/github-actions-demo-success.yml/badge.svg)](https://github.com/torreypjones/calculator/actions/workflows/github-actions-demo-success.yml)
