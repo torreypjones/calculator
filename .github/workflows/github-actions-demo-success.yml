@@ -21,6 +21,10 @@ on:
           - staging-legacy
           - sandbox
         default: staging
+      environment:
+        description: 🌎️ Environment
+        type: environment
+        default: staging
 
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
@@ -44,12 +48,18 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-      - name: Generate Badges
-        uses: jaywcjlove/generated-badges@main
+      #generate a badge for this run
+      - name: Create Badge
+        uses: schneegans/dynamic-badges-action@v1.4.0
         with:
-          label: ${{ github.event.inputs.branch }}
-          status: cyan
-          output: build/cyan.svg
+          auth: ${{ secrets.GIST_SECRET }}
+          gistID: 222c4b03cc18f8ea0a0d20aba1a02621
+          filename: badges-demo-success.json
+          label: Hello
+          message: World
+          color: orange
+
+      
 
   actual-build:
     runs-on: ubuntu-latest
