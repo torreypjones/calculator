@@ -17,14 +17,18 @@ on:
         description: 'Branch'
         type: choice
         options:
-          - staging
-          - staging-legacy
-          - sandbox
+          - staging-torrey
+          - staging-legacy-torrey
+          - sandbox-torrey
         default: staging
       environment:
         description: 🌎️ Environment
         type: environment
         default: staging
+        options:
+          - staging-torrey
+          - staging-legacy-torrey
+          - sandbox-torrey
 
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
