@@ -26,9 +26,9 @@ on:
         type: choice
         default: green
         options:
-          - red
-          - yellow
-          - green
+          - FF0000
+          - FFFF00
+          - 00994C
       environment:
         description: 🌎️ Environment
         type: choice
