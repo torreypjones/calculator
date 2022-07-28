@@ -28,7 +28,7 @@ on:
         options:
           - FF0000
           - FFFF00
-          - 00994C
+          - 00CC00
       environment:
         description: 🌎️ Environment
         type: choice
