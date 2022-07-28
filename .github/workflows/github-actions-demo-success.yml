@@ -21,6 +21,14 @@ on:
           - staging-legacy-torrey
           - sandbox-torrey
         default: staging
+      badge_color:
+        description: 'badge color'
+        type: choice
+        default: green
+        options:
+          - red
+          - yellow
+          - green
       environment:
         description: 🌎️ Environment
         type: choice
@@ -64,7 +72,7 @@ jobs:
           #label: ${{ format('{0} / environment {1} / branch {2}', github.workflow, github.event.inupts.environment ) }}
           label: ${{ format('workflow{0} {1} / environment{0} {2}', ':', github.workflow, github.event.inputs.environment ) }}
           message: ${{ github.event.inputs.environment }}
-          color: orange
+          color: ${{ github.event.inputs.badge-color }}
 
       #generate a badge for this run
       - name: Create Badge red
