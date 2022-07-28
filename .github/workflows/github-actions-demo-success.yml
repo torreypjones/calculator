@@ -23,7 +23,7 @@ on:
         default: staging
       environment:
         description: 🌎️ Environment
-        type: environment
+        type: choice
         default: staging
         options:
           - staging-torrey
