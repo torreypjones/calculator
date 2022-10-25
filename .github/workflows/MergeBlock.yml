@@ -31,8 +31,8 @@ jobs:
         with:
           #default to UTC
           timezone: UTC
-          after: "00:01 on Friday"
-          before: "00:01 on Monday"
+          after: "00:01"
+          before: "00:01"
           base-branches: "master"
           commit-status-context: "Merge Allowed?"
           commit-status-description-with-success: "Yes merging is allowed during this time window"
