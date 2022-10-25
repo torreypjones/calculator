@@ -1,0 +1,41 @@
+# Overrides are still possible by GH Admins
+# overrides can be performed by non-admin users by applying the label "no-label" to the PR.
+# If "no-label" is added after PR is created, this workflow can be executed manually
+
+name: Merge Block based on time
+on:
+  schedule:
+    - cron: "2 0 * * 5,1" #At 00:02 UTC on Friday and Monday.
+
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - labeled
+      - unlabeled
+
+  workflow_dispatch:
+    # Inputs the workflow accepts.
+    inputs:
+      reason:
+        default: "reason to execute"
+        description: "Reason to execute manually"
+        required: false
+
+jobs:
+  block:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: yykamei/block-merge-based-on-time@v1
+        with:
+          #default to UTC
+          timezone: UTC
+          after: "00:01 on Friday"
+          before: "00:01 on Monday"
+          base-branches: "master"
+          commit-status-context: "Merge Allowed?"
+          commit-status-description-with-success: "Yes merging is allowed during this time window"
+          commit-status-description-while-blocking: 'No merging during this time window. Add PR label "no-block" and run MergeBlock GH action to override'
+          #default label to add to PR to override is "no-block"
+          #no-block-label: "no-block"
